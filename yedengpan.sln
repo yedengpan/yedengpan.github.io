@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33214.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4747121E-6018-4BC5-8147-06AAE1FCE4A7}"
+	ProjectSection(SolutionItems) = preProject
+		_config.yml = _config.yml
+		awards.html = awards.html
+		index.html = index.html
+		journal.html = journal.html
+		patent.html = patent.html
+		publication.html = publication.html
+		research.html = research.html
+		..\wangrun.github.io-master\time.html = ..\wangrun.github.io-master\time.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "source_files", "source_files", "{243C6011-20DF-484B-923A-BC8C8B6C3CA0}"
+	ProjectSection(SolutionItems) = preProject
+		..\wangrun.github.io-master\source_files\jemdoc.css = ..\wangrun.github.io-master\source_files\jemdoc.css
+		..\wangrun.github.io-master\source_files\jquery-1.12.4.min.js = ..\wangrun.github.io-master\source_files\jquery-1.12.4.min.js
+		..\..\视频\Captures\ydp.jpg = ..\..\视频\Captures\ydp.jpg
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "static", "static", "{4BC53BE1-3EFD-44CB-AE23-EAA70FAAB070}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{EB6A2260-5ADD-4E6F-8230-BC866855F3CA}"
+	ProjectSection(SolutionItems) = preProject
+		..\wangrun.github.io-master\static\css\bootstrap.min.css = ..\wangrun.github.io-master\static\css\bootstrap.min.css
+		..\wangrun.github.io-master\static\css\deadlines.css = ..\wangrun.github.io-master\static\css\deadlines.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{5D419273-17BD-4E0A-B36E-39E0BF07CE43}"
+	ProjectSection(SolutionItems) = preProject
+		..\wangrun.github.io-master\static\js\jquery.countdown.min.js = ..\wangrun.github.io-master\static\js\jquery.countdown.min.js
+		..\wangrun.github.io-master\static\js\main.js = ..\wangrun.github.io-master\static\js\main.js
+		..\wangrun.github.io-master\static\js\moment-timezone-with-data.min.js = ..\wangrun.github.io-master\static\js\moment-timezone-with-data.min.js
+		..\wangrun.github.io-master\static\js\moment.min.js = ..\wangrun.github.io-master\static\js\moment.min.js
+		..\wangrun.github.io-master\static\js\store.min.js = ..\wangrun.github.io-master\static\js\store.min.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "img", "img", "{2BCCF9F8-FA34-4845-B514-4311914A223A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_layouts", "_layouts", "{B8D593D4-464C-4C44-ACDF-B88F57056C13}"
+	ProjectSection(SolutionItems) = preProject
+		..\wangrun.github.io-master\_layouts\home.html = ..\wangrun.github.io-master\_layouts\home.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_includes", "_includes", "{5D04D0D5-E268-4548-A6E2-C7F336D05850}"
+	ProjectSection(SolutionItems) = preProject
+		..\wangrun.github.io-master\_includes\analytics.html = ..\wangrun.github.io-master\_includes\analytics.html
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{243C6011-20DF-484B-923A-BC8C8B6C3CA0} = {4747121E-6018-4BC5-8147-06AAE1FCE4A7}
+		{4BC53BE1-3EFD-44CB-AE23-EAA70FAAB070} = {4747121E-6018-4BC5-8147-06AAE1FCE4A7}
+		{EB6A2260-5ADD-4E6F-8230-BC866855F3CA} = {4BC53BE1-3EFD-44CB-AE23-EAA70FAAB070}
+		{5D419273-17BD-4E0A-B36E-39E0BF07CE43} = {4BC53BE1-3EFD-44CB-AE23-EAA70FAAB070}
+		{2BCCF9F8-FA34-4845-B514-4311914A223A} = {4BC53BE1-3EFD-44CB-AE23-EAA70FAAB070}
+		{B8D593D4-464C-4C44-ACDF-B88F57056C13} = {4747121E-6018-4BC5-8147-06AAE1FCE4A7}
+		{5D04D0D5-E268-4548-A6E2-C7F336D05850} = {4747121E-6018-4BC5-8147-06AAE1FCE4A7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9FC13FBA-5530-47B4-95D0-27A4F2975C5D}
+	EndGlobalSection
+EndGlobal
