@@ -56,7 +56,7 @@ tt {
 }
 
 pre, tt {
-	font-size: 95%;
+	font-size: 90%;
 	font-family: monaco, monospace;
 }
 
@@ -135,7 +135,7 @@ h1, h2, h3 {
 }
 
 h1 {
-	font-size: 180%;
+	font-size: 165%;
   /*background: #003366;*/
   background: #C7C6C6;
   line-height: 1.5;
@@ -143,7 +143,7 @@ h1 {
 
 h2 {
 	padding-top: 0.8em;
-	font-size: 140%;
+	font-size: 125%;
 }
 
 h2 + h3 {
@@ -161,7 +161,7 @@ p {
 	padding: 0;
 	line-height: 1.5;
   /*size of font in body*/
-  font-size: 21px;
+  font-size: 17px;
 }
 
 pre {
