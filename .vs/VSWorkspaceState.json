@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\source_files"
+    "\\source_files",
+    "\\static",
+    "\\static\\js"
   ],
-  "SelectedNode": "\\journal.html",
+  "SelectedNode": "\\source_files\\jemdoc.css",
   "PreviewInSolutionExplorer": false
 }
