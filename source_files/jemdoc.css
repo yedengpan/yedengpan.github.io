@@ -6,13 +6,26 @@ table#tlayout {
     background: white;
 }
 
-body {
-	background: white;
-	font-family: Georgia, serif;
+/*body.my-body {
+	background: white;*/
+	/*	font-family: Georgia, serif;*/
+	/*font-family: "Times New Roman", Sans-serif, Serif, Arial, Helvetica, sans-serif;
 	padding-bottom: 8px;
 	margin: 0;
 	text-align: center;
+}*/
+
+
+/* 设置英文文字的字体样式 */
+:lang(en) {
+	font-family: "Arial", sans-serif;
 }
+
+/* 排除其他语言的文字样式设置 */
+:not(:lang(en)) {
+	font-family: inherit;
+}
+
 
 #layout-menu {
 	background: #f6f6f6;
