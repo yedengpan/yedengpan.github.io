@@ -17,7 +17,7 @@
         }
     </style>
 
-    
+
     <style>
         .container {
             display: flex;
@@ -38,13 +38,39 @@
             margin-left: 20px; /* 调整右侧图片的左边距 */
         }
 
-        .right-images img {
+            .right-images img {
+                width: 100%;
+                height: auto;
+                margin-bottom: 10px; /* 图片之间的垂直间距 */
+            }
+    </style>
+
+    <style>
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            width: 70%;
+            margin: 0 auto;
+        }
+
+        .column {
+            flex: 0 0 50%;
+            max-width: 50%;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        img {
             width: 100%;
             height: auto;
-            margin-bottom: 10px; /* 图片之间的垂直间距 */
+        }
+
+        .image-title {
+            text-align: center; /* 居中对齐标题 */
         }
     </style>
-    
+
 </head>
 <body class="my-body">
     <div id="layout-content">
@@ -116,8 +142,8 @@
         <div class="container">
             <img class="left-image" src="./source_files/222.png" alt="artificial_security" />
             <div class="right-images">
-                <img src="./source_files/gif_1.gif" alt="Small Image 1">
-                <img src="./source_files/gif_2.gif" alt="Small Image 2">
+                <img src="./source_files/gif_1.gif" alt="Small Image 1" />
+                <img src="./source_files/gif_2.gif" alt="Small Image 2" />
             </div>
         </div>
 
@@ -131,6 +157,31 @@
             </ul>
         </ul>
         <img class="center-image" src="./source_files/333.png" alt="cyberspace_security" />
+
+
+        <ul>
+            <li><p style="text-align:justify;"><b> Image Traceability and Forensics in Social Networks: </b></p></li>
+            
+        </ul>
+
+        <div class="image-container">
+            <div class="column">
+                <img src="./source_files/deepfake.png" alt="Deepfake检测" />
+                <p class="image-title"><b>Deepfake检测</b></p>
+            </div>
+            <div class="column">
+                <img src="./source_files/adversarial.png" alt="对抗检测" />
+                <p class="image-title"><b>对抗检测</b></p>
+            </div>
+            <div class="column">
+                <img src="./source_files/general.png" alt="通用篡改检测" />
+                <p class="image-title"><b>通用篡改检测</b></p>
+            </div>
+            <div class="column">
+                <img src="./source_files/social.png" alt="社交网络溯源" />
+                <p class="image-title"><b>社交网络溯源</b></p>
+            </div>
+        </div>
 
     </div>
 </body>
