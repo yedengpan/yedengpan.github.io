@@ -23,15 +23,17 @@ body {
 	text-align: center;
 }
 
-/*
+
+����Ӣ�����ֵ�������ʽ
 :lang(en) {
 	font-family: "Arial", sans-serif;
 }
 
+/* �ų��������Ե�������ʽ���� */
 :not(:lang(en)) {
 	font-family: inherit;
 }
-*/
+
 
 #layout-menu {
 	background: #f6f6f6;
@@ -179,8 +181,8 @@ p {
 	margin-bottom: 0.8em;
 	padding: 0;
 	line-height: 1.5;
-  	/*size of font in body*/
-  	font-size: 17px;
+  /*size of font in body*/
+  font-size: 17px;
 }
 
 pre {
